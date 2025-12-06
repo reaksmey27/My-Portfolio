@@ -439,6 +439,64 @@ a {
     color: #a0ff5e;
 }
 
+
+/* SERVICES SECTION */
+#services {
+    padding: 80px 9%;
+    background: #1f242d;
+    color: #fff;
+    text-align: center;
+    animation: fadeInUp 4s ease forwards;
+}
+
+#services h2 {
+    font-size: 40px;
+    color: #7cf03d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.service-card {
+    background: #2a2f38;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #7cf03d;
+    box-shadow: 0 0 20px #7cf03d;
+}
+
+.service-card i {
+    font-size: 50px;
+    color: #7cf03d;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #7cf03d;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
 #contact {
     padding: 80px 9%;
     background-color: #1f242d;

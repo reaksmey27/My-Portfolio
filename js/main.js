@@ -42,5 +42,6 @@ window.addEventListener('click', function(e) {
     if (e.target === popup) {
         popup.style.display = 'none';
     }
+    console.log(e.target);
 });
 
